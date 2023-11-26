@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background-color: #464646;
+}
+.firstSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #267c87;
+  height: 150px;
+  color: white;
+}
+.theGreatText{
+  font-size: 25px;
+}
+.colorName{
+  font-size: 45px;
+  margin: 5px;
+}
+.guessingGameText{
+  font-size: 25px;
+}
+.secondSection{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-color: white; 
+  height: 30px;
+}
+.newColorsButton{
+  color: #267c87;
+  background: transparent;
+  border: 0px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.thirdSection{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxes{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.boxesFirstRow{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.boxesSecondRow{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 30px;
+}
+
