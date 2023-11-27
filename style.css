@@ -67,5 +67,7 @@ body{
   background-color: white;
   margin: 10px;
   border-radius: 30px;
+  border: solid 0.5px white;
+  cursor: pointer;
 }
 
